@@ -1,11 +1,11 @@
 variable "aws_region" {}
 variable "aws_profile" {}
-variable "sb_cidr" {}
-variable "sb_sbn_public_cidr" {}
-variable "sb_sbn_public2_cidr" {}
-variable "sb_sbn_private_cidr" {}
+variable "pn_cidr" {}
+variable "pn_pnn_public_cidr" {}
+variable "pn_pnn_public2_cidr" {}
+variable "pn_pnn_private_cidr" {}
 
-variable "sb_sbn_private2_cidr" {}
+variable "pn_pnn_private2_cidr" {}
 
 variable "eb_solution_stack_name" {
   type    = "string"
